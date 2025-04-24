@@ -95,7 +95,8 @@ function getSails() {
                     </label>
                 </small>
             </h5>
-            <textarea class:extended>{polarExport(boat, extended)} </textarea>
+            <textarea class:extended>{polarExport(boat, extended)} </textarea><br/>
+            <a href="data/{boat.sailnumber}.pol" download>{boat.sailnumber}.pol</a>
         </div>
     </div>
 {/if}
