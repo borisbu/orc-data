@@ -42,6 +42,9 @@ json:
 site:
 	./scoring.py site
 
+polar:
+	./polar.py
+
 clean:
 	rm $(BASE).*
 	rm -rf data/*.rms
